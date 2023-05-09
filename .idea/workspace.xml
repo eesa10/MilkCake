@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4722c991-29db-4303-a917-09f0ce94614b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EmployeeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/employees.csv" afterDir="false" />
-    </list>
+    <list default="true" id="4722c991-29db-4303-a917-09f0ce94614b" name="Changes" comment="adding project to github test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +24,22 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="406cddbc-52eb-4552-a29f-4540bed4d24d" />
+        <option name="url" value="https://github.com/eesa10/MilkCake" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PYuwi8VUwy5YIZvP1nFF8G4IMy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,6 +65,14 @@
       <option name="presentableId" value="Default" />
       <updated>1683646577137</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding project to github test">
+      <created>1683648357237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683648357237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,7 +86,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Mohamed" />
+                        <option value="origin/Mohamed" />
                       </list>
                     </value>
                   </entry>
@@ -83,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding project to github test" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding project to github test" />
   </component>
 </project>
