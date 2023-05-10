@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,20 +24,8 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2PZ0S9dW04abyQh7O2tHOHRD2sD" />
-
+  <component name="ProjectId" id="2PEWxfp7TyvxvFEYYJ5CJgq7a9W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,35 +34,105 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="MilkCake" />
+  <component name="RunManager" selected="JUnit.ProgramTests (1)">
+    <configuration name="FilmClassifications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.em.FilmClassifications" />
+      <module name="IntellijBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="MilkCake" />
-      <option name="filePath" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.em.Program" />
+      <module name="IntellijBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Classification_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntellijBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.em" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.em.Classification_Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.em" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.em.ProgramTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntellijBasicss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.em" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.em.ProgramTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProgramTests (1)" />
+        <item itemvalue="JUnit.Classification_Tests" />
+        <item itemvalue="Application.FilmClassifications" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="JUnit.ProgramTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bd9c0b63-17c3-4171-9f03-a1d4d6a2ea5f" name="Changes" comment="" />
-      <created>1683649293608</created>
+      <changelist id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="" />
+      <created>1683022968097</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683649293608</updated>
-
+      <updated>1683022968097</updated>
+    </task>
+    <servers />
+  </component>
 </project>
