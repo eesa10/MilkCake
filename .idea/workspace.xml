@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd9c0b63-17c3-4171-9f03-a1d4d6a2ea5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory3.java" afterDir="false" />
+    <list default="true" id="bd9c0b63-17c3-4171-9f03-a1d4d6a2ea5f" name="Changes" comment="&quot;New variables added by Eesa&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +27,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e9722396-848e-4145-aac6-63e8d8c49db3" />
+        <option name="url" value="https://github.com/eesa10/MilkCake.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,10 +60,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "dev",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunManager">
@@ -78,6 +92,42 @@
       <option name="presentableId" value="Default" />
       <updated>1683649293608</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;EmployeeFactory2 class added by Eesa&quot;">
+      <created>1683730217964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683730217964</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;EmployeeFactory4 class added by Eesa&quot;">
+      <created>1683730442890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683730442891</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;EmployeeFactory5 class added by Eesa&quot;">
+      <created>1683732250503</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683732250503</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;New variables added by Eesa&quot;">
+      <created>1683732390848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683732390848</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;EmployeeFactory2 class added by Eesa&quot;" />
+    <MESSAGE value="&quot;EmployeeFactory4 class added by Eesa&quot;" />
+    <MESSAGE value="&quot;EmployeeFactory5 class added by Eesa&quot;" />
+    <MESSAGE value="&quot;New variables added by Eesa&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;New variables added by Eesa&quot;" />
   </component>
 </project>
