@@ -5,4 +5,6 @@ public class EmployeeFactory5 {
 
     }
     int employees = 55;
+    String employeeName = "John";
+    String lastName = "Smith";
 }
