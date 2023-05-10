@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06f2ad45-f333-4d0c-89a4-31dd21cbd418" name="Changes" comment="final commit for the day 10/05/2023">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/GitHubTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="eesa10" />
+        <option name="repository" value="MilkCake" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="054c1a9d-6f80-4283-9a78-f531ad9f4296" />
+        <option name="url" value="https://github.com/eesa10/MilkCake.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sparta.mc.App" />
@@ -33,5 +71,83 @@
         <item itemvalue="Application.NewClass" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06f2ad45-f333-4d0c-89a4-31dd21cbd418" name="Changes" comment="" />
+      <created>1683735853790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683735853790</updated>
+    </task>
+    <task id="LOCAL-00001" summary="pushing test java file to github">
+      <created>1683735985347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683735985347</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pushing test java file to github">
+      <created>1683736080194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736080194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pushing test java file to github">
+      <created>1683736248949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736248949</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pushing test java file to github 17;31">
+      <created>1683736304606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736304606</updated>
+    </task>
+    <task id="LOCAL-00005" summary="pushing test java file to github 17;31">
+      <created>1683736741247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736741247</updated>
+    </task>
+    <task id="LOCAL-00006" summary="pushing test java file to github 17;31">
+      <created>1683736829672</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683736829672</updated>
+    </task>
+    <task id="LOCAL-00007" summary="final commit for the day 10/05/2023">
+      <created>1683737918700</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737918700</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pushing test java file to github" />
+    <MESSAGE value="pushing test java file to github 17;31" />
+    <MESSAGE value="final commit for the day 10/05/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit for the day 10/05/2023" />
   </component>
 </project>
