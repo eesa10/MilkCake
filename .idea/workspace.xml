@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="xml updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/thisIsATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_3_45_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_3_45_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_09_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_10_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_10_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-May-23_3_32_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-May-23_3_32_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Shahana" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectId" id="2PEWxfp7TyvxvFEYYJ5CJgq7a9W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,10 +48,10 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ProgramTests (1)">
+  <component name="RunManager" selected="Application.FilmClassifications">
     <configuration name="FilmClassifications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparta.em.FilmClassifications" />
-      <module name="IntellijBasics" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.mc.App" />
+      <module name="EmployeeProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sparta.em.*" />
@@ -113,9 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProgramTests (1)" />
-        <item itemvalue="JUnit.Classification_Tests" />
         <item itemvalue="Application.FilmClassifications" />
+        <item itemvalue="JUnit.Classification_Tests" />
         <item itemvalue="Application.Program" />
         <item itemvalue="JUnit.ProgramTests" />
       </list>
