@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="new class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/logging/config/AppLogger.java" beforeDir="false" />
-    </list>
+    <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="new class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
