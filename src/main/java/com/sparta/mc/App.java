@@ -12,13 +12,13 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         try {
-            String[] employees = EmployeeFactory.getEmployees(20);
+            String[] employees = EmployeeFactory.getEmployees(1000);
             //logger    --  logHowManyEmployeeRecordsRetrieved
 
             List<Employee> loe = createListofEmployees(employees);
             createEmployeeRecords(loe, employees);
             BinaryTree binaryTree = createBinaryTree(loe);
-            String[] lastNamesToSearch = {"Bumgarner", "Rojo", "Jason"};
+            String[] lastNamesToSearch = {"Bumgarner", "Rojo", "Jason", "Winter", "Mattison", "Breton"};
             searchInBinaryTree(binaryTree, lastNamesToSearch);
 
         } catch (IOException e) {

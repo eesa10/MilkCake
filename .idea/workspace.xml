@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="employees csv file added (new one)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Eesa" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
   </component>
@@ -40,7 +43,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "Eesa",
     "last_opened_file_path": "C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss"
   }
 }]]></component>
