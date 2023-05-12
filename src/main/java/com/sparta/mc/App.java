@@ -44,19 +44,24 @@ AppLogger.writeLog("No:of records retrieved " + employees.length,"INFO");
             String EMail= "";
 
             if (!emp[0].equals("Emp ID")) {
-                EmpID = Integer.parseInt(emp[0]);
-                NamePrefix = emp[1];
-                FirstName = emp[2];
-                MiddleInitial = emp[3].charAt(0);
-                LastName = emp[4];
-                Gender = emp[5].charAt(0);
-                EMail = emp[6];
-                Integer.parseInt(emp[9]);
+                try {
+                    EmpID = Integer.parseInt(emp[0]);
+                    NamePrefix = emp[1];
+                    FirstName = emp[2];
+                    MiddleInitial = emp[3].charAt(0);
+                    LastName = emp[4];
+                    Gender = emp[5].charAt(0);
+                    EMail = emp[6];
+                    Integer.parseInt(emp[9]);
 
-                String DateofBirth = applyDateFormat(emp[7]);
-                String DateofJoining = applyDateFormat(emp[8]);
-                Employee e = new Employee(EmpID, NamePrefix, FirstName, MiddleInitial, LastName, Gender, EMail, DateofBirth, DateofJoining, Salary);
-                employeeList.add(e);
+                    String DateofBirth = applyDateFormat(emp[7]);
+                    String DateofJoining = applyDateFormat(emp[8]);
+                    Employee e = new Employee(EmpID, NamePrefix, FirstName, MiddleInitial, LastName, Gender, EMail, DateofBirth, DateofJoining, Salary);
+                    employeeList.add(e);
+                }catch (NumberFormatException e) {
+                    System.err.println("Invalid input format: " + e.getMessage()); //try-catch exception for invalid input format
+
+                }
 
             } else {
                 //logger    --  Add_Line_BADRECORD_HeaderRecord_Exist_in_csv
@@ -79,14 +84,18 @@ AppLogger.writeLog("No:of records retrieved " + employees.length,"INFO");
     private static void searchInBinaryTree(BinaryTree binaryTree, String[] lastNamesToSearch) {
 
         for (int i = 0; i < lastNamesToSearch.length; i++) {
-            Employee foundEmployee = binaryTree.search(lastNamesToSearch[i]);
+            try {
+                Employee foundEmployee = binaryTree.search(lastNamesToSearch[i]);
 
-            if (foundEmployee != null) {
-                System.out.println("Employee found: " + foundEmployee.toString());
-            } else {
-                System.out.println("Employee not found.");
-                //logger    --  SearchRetrievedNoRecords
-                AppLogger.writeLog("Search Retrieved No Records", "INFO");
+                if (foundEmployee != null) {
+                    System.out.println("Employee found: " + foundEmployee.toString());
+                } else {
+                    System.out.println("Employee not found.");
+                    //logger    --  SearchRetrievedNoRecords
+                    AppLogger.writeLog("Search Retrieved No Records", "INFO");
+                }
+            }catch (IllegalArgumentException e) {
+                System.out.println("Invalid argument passed to search method: " + e.getMessage());//Illegal Argument exception
             }
         }
     }
