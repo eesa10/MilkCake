@@ -1,0 +1,106 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>sparta.global.mc</groupId>\r\n    <artifactId>EmployeeProject</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>17</maven.compiler.source>\r\n        <maven.compiler.target>17</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 07163a24de05ca77eb1547a649f31693ce975fd4)
++++ b/pom.xml	(date 1683906927899)
+@@ -4,8 +4,8 @@
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+ 
+-    <groupId>sparta.global.mc</groupId>
+-    <artifactId>EmployeeProject</artifactId>
++    <groupId>com.sparta.em</groupId>
++    <artifactId>PalindromeTask1</artifactId>
+     <version>1.0-SNAPSHOT</version>
+ 
+     <properties>
+@@ -13,5 +13,25 @@
+         <maven.compiler.target>17</maven.compiler.target>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
++    <dependencies>
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter</artifactId>
++            <version>RELEASE</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter</artifactId>
++            <version>RELEASE</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>junit</groupId>
++            <artifactId>junit</artifactId>
++            <version>4.12</version>
++            <scope>test</scope>
++        </dependency>
++    </dependencies>
+ 
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"ALL\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"246299d0-27e8-493f-90e3-25319123c787\" name=\"Default Changelist\" comment=\"employees csv file added (new one)\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_12_20_PM__Default_Changelist_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_12_20_PM__Default_Changelist_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/employees_csv_file_added__new_one_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/employees_csv_file_added__new_one_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/sparta/mc/App.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/sparta/mc/App.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeInsightWorkspaceSettings\">\r\n    <option name=\"optimizeImportsOnTheFly\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"dev\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2PEWxfp7TyvxvFEYYJ5CJgq7a9W\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;Eesa&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Xcite\\Desktop\\Eesa\\SpartaGlobal\\Week3\\Project\\MilkCake\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.FilmClassifications\">\r\n    <configuration name=\"FilmClassifications\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.mc.App\" />\r\n      <module name=\"EmployeeProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Program\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.em.Program\" />\r\n      <module name=\"IntellijBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Classification_Tests\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"IntellijBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.sparta.em\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.em.Classification_Tests\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProgramTests\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"EmployeeProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.sparta.em\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.em.ProgramTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProgramTests\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"IntellijBasicss\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.sparta.em\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.em.ProgramTests\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.FilmClassifications\" />\r\n        <item itemvalue=\"JUnit.ProgramTests\" />\r\n        <item itemvalue=\"JUnit.Classification_Tests\" />\r\n        <item itemvalue=\"Application.Program\" />\r\n        <item itemvalue=\"Application.FilmClassifications\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"246299d0-27e8-493f-90e3-25319123c787\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1683022968097</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1683022968097</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"xml updated\">\r\n      <created>1683738160827</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683738160827</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"new class\">\r\n      <created>1683804450615</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683804450616</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"employees csv file added (new one)\">\r\n      <created>1683810036640</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683810036640</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Some changes made locally\">\r\n      <created>1683888395557</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683888395557</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Node Class nested within BinaryTree\">\r\n      <created>1683898501284</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683898501285</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Node Class nested within BinaryTree\">\r\n      <created>1683898539445</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683898539445</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"xml updated\" />\r\n    <MESSAGE value=\"new class\" />\r\n    <MESSAGE value=\"employees csv file added (new one)\" />\r\n    <MESSAGE value=\"Some changes made locally\" />\r\n    <MESSAGE value=\"Node Class nested within BinaryTree\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Node Class nested within BinaryTree\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 07163a24de05ca77eb1547a649f31693ce975fd4)
++++ b/.idea/workspace.xml	(date 1683905921063)
+@@ -5,11 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="employees csv file added (new one)">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_12_20_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_12_20_PM__Default_Changelist_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/employees_csv_file_added__new_one_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/employees_csv_file_added__new_one_.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_2_38_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_2_38_PM__Default_Changelist_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_4_10_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_4_10_PM__Default_Changelist_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: src/test/java/AppTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/AppTest.java b/src/test/java/AppTest.java
+new file mode 100644
+--- /dev/null	(date 1683905700485)
++++ b/src/test/java/AppTest.java	(date 1683905700485)
+@@ -0,0 +1,22 @@
++package com.sparta.mc;
++import org.junit.jupiter.api.Assertions;
++import org.junit.jupiter.api.DisplayName;
++import org.junit.jupiter.api.Test;
++
++public class AppTest {
++
++    @Test
++    public void testCreateListofEmployees() {
++        String[] employees = {"123,Mr.,John,D,Doe,M,johndoe@example.com"};
++        List<Employee> employeeList = App.createListofEmployees(employees);
++        Assertions.assertEquals(1, employeeList.size());
++        Employee employee = employeeList.get(0);
++        Assertions.assertEquals(123, employee.getEmpID());
++        Assertions.assertEquals("Mr.", employee.getNamePrefix());
++        Assertions.assertEquals("John", employee.getFirstName());
++        Assertions.assertEquals('D', employee.getMiddleInitial());
++        Assertions.assertEquals("Doe", employee.getLastName());
++        Assertions.assertEquals('M', employee.getGender());
++        Assertions.assertEquals("johndoe@example.com", employee.getEMail());
++    }
++}

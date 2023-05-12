@@ -17,16 +17,23 @@ public class App {
     public static final Logger logger = Logger.getLogger(App.class.getName());
 
     public static void main(String[] args) {
+        int numOfEmp = 20;
+        String[] lastNamesToSearch = {"Rojo"};
+        String[] lastNamesFound=startProcess(numOfEmp,lastNamesToSearch);
+    }
+    public static String[] startProcess(int numOfEmp,String[] lastNamesToSearch) {
         try {
             employeeLogger();
-            String[] employees = EmployeeFactory.getEmployees(1000);
+            String[] employees = EmployeeFactory.getEmployees(numOfEmp);
             //logger    --  logHowManyEmployeeRecordsRetrieved
             logger.log(Level.INFO, "Employee Records Retrieved: "+employees.length);
             List<Employee> loe = createListofEmployees(employees);
             createEmployeeRecords(loe, employees);
             BinaryTree binaryTree = createBinaryTree(loe);
-            String[] lastNamesToSearch = {"Bumgarner", "Rojo", "Jason"};
-            searchInBinaryTree(binaryTree, lastNamesToSearch);
+            //String[] lastNamesToSearch = {"Bumgarner", "Rojo1", "Jason1","Abernathy","Rojo"};
+            //String[] lastNamesToSearch = {"Rojo"};
+            String[] lastNamesFound = searchInBinaryTree(binaryTree, lastNamesToSearch);
+            return lastNamesFound;
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -62,24 +69,23 @@ public class App {
 
             if (!emp[0].equals("Emp ID")) {
                 try {
-                    EmpID = Integer.parseInt(emp[0]);
-                    NamePrefix = emp[1];
-                    FirstName = emp[2];
-                    MiddleInitial = emp[3].charAt(0);
-                    LastName = emp[4];
-                    Gender = emp[5].charAt(0);
-                    EMail = emp[6];
-                    Integer.parseInt(emp[9]);
+                EmpID = Integer.parseInt(emp[0]);
+                NamePrefix = emp[1];
+                FirstName = emp[2];
+                MiddleInitial = emp[3].charAt(0);
+                LastName = emp[4];
+                Gender = emp[5].charAt(0);
+                EMail = emp[6];
+                Integer.parseInt(emp[9]);
 
-                    String DateofBirth = applyDateFormat(emp[7]);
-                    String DateofJoining = applyDateFormat(emp[8]);
-                    Employee e = new Employee(EmpID, NamePrefix, FirstName, MiddleInitial, LastName, Gender, EMail, DateofBirth, DateofJoining, Salary);
-                    employeeList.add(e);
+                String DateofBirth = applyDateFormat(emp[7]);
+                String DateofJoining = applyDateFormat(emp[8]);
+                Employee e = new Employee(EmpID, NamePrefix, FirstName, MiddleInitial, LastName, Gender, EMail, DateofBirth, DateofJoining, Salary);
+                employeeList.add(e);
                 }catch (NumberFormatException e) {
                     System.err.println("Invalid input format: " + e.getMessage()); //try-catch exception for invalid input format
 
                 }
-
             } else {
                 //logger    --  Add_Line_BADRECORD_HeaderRecord_Exist_in_csv
                 logger.log(Level.WARNING, "Employee Records Contain Bad Record: "+emp[0]);
@@ -98,24 +104,25 @@ public class App {
         return binaryTree;
     }
 
-    private static void searchInBinaryTree(BinaryTree binaryTree, String[] lastNamesToSearch) {
-
+    private static String[] searchInBinaryTree(BinaryTree binaryTree, String[] lastNamesToSearch) {
+        String[] lastNamesFound =new String [lastNamesToSearch.length];
         for (int i = 0; i < lastNamesToSearch.length; i++) {
             try{
-                Employee foundEmployee = binaryTree.search(lastNamesToSearch[i]);
+            Employee foundEmployee = binaryTree.search(lastNamesToSearch[i]);
 
-                if (foundEmployee != null) {
-                    System.out.println("Employee found: " + foundEmployee.toString());
-                } else {
-                    //System.out.println("Employee not found.");
-                    //logger    --  SearchRetrievedNoRecords
-                    logger.log(Level.WARNING, "Not Found in Binary Tree,  Employee: "+lastNamesToSearch[i]);
-                }
+            if (foundEmployee != null) {
+                System.out.println("Employee found: " + foundEmployee.toString());
+                lastNamesFound[i]=foundEmployee.getLastName();
+            } else {
+                //System.out.println("Employee not found.");
+                //logger    --  SearchRetrievedNoRecords
+                logger.log(Level.WARNING, "Not Found in Binary Tree,  Employee: "+lastNamesToSearch[i]);
+            }
             }catch (IllegalArgumentException e) {
                 System.out.println("Invalid argument passed to search method: " + e.getMessage());//Illegal Argument exception
             }
-
         }
+        return lastNamesFound;
     }
 
     private static String applyDateFormat(String d1) {

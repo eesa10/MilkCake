@@ -1,185 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="AutoImportSettings">
-        <option name="autoReloadType" value="ALL" />
-    </component>
-    <component name="ChangeListManager">
-        <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="employees csv file added (new one)">
-            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-            <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-        </list>
-        <option name="SHOW_DIALOG" value="false" />
-        <option name="HIGHLIGHT_CONFLICTS" value="true" />
-        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-        <option name="LAST_RESOLUTION" value="IGNORE" />
-    </component>
-    <component name="CodeInsightWorkspaceSettings">
-        <option name="optimizeImportsOnTheFly" value="true" />
-    </component>
-    <component name="FileTemplateManagerImpl">
-        <option name="RECENT_TEMPLATES">
-            <list>
-                <option value="Class" />
-            </list>
-        </option>
-    </component>
-    <component name="Git.Settings">
-        <option name="RECENT_BRANCH_BY_REPOSITORY">
-            <map>
-                <entry key="$PROJECT_DIR$" value="Eesa" />
-            </map>
-        </option>
-    </component>
-    <component name="ProjectId" id="2PEWxfp7TyvxvFEYYJ5CJgq7a9W" />
-    <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-    <component name="ProjectViewState">
-        <option name="hideEmptyMiddlePackages" value="true" />
-        <option name="showLibraryContents" value="true" />
-    </component>
-    <component name="PropertiesComponent">{
-        &quot;keyToString&quot;: {
-        &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-        &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-        &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-        &quot;last_opened_file_path&quot;: &quot;C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss&quot;
-        }
-        }</component>
-    <component name="RecentsManager">
-        <key name="MoveFile.RECENT_KEYS">
-            <recent name="C:\Users\Xcite\Desktop\Eesa\SpartaGlobal\Week3\Project\MilkCake\src\main\resources" />
-        </key>
-    </component>
-    <component name="RunManager" selected="Application.FilmClassifications">
-        <configuration name="FilmClassifications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-            <option name="MAIN_CLASS_NAME" value="com.sparta.mc.App" />
-            <module name="EmployeeProject" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="com.sparta.em.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-            <option name="MAIN_CLASS_NAME" value="com.sparta.em.Program" />
-            <module name="IntellijBasics" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="com.sparta.em.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <configuration name="Classification_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-            <module name="IntellijBasics" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="com.sparta.em.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="com.sparta.em" />
-            <option name="MAIN_CLASS_NAME" value="com.sparta.em.Classification_Tests" />
-            <option name="TEST_OBJECT" value="class" />
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <configuration name="ProgramTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-            <module name="EmployeeProject" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="com.sparta.em.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="com.sparta.em" />
-            <option name="MAIN_CLASS_NAME" value="com.sparta.em.ProgramTests" />
-            <option name="METHOD_NAME" value="" />
-            <option name="TEST_OBJECT" value="class" />
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <configuration name="ProgramTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-            <module name="IntellijBasicss" />
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="com.sparta.em.*" />
-                    <option name="ENABLED" value="true" />
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="com.sparta.em" />
-            <option name="MAIN_CLASS_NAME" value="com.sparta.em.ProgramTests" />
-            <option name="TEST_OBJECT" value="class" />
-            <method v="2">
-                <option name="Make" enabled="true" />
-            </method>
-        </configuration>
-        <recent_temporary>
-            <list>
-                <item itemvalue="JUnit.ProgramTests" />
-                <item itemvalue="JUnit.Classification_Tests" />
-                <item itemvalue="Application.Program" />
-                <item itemvalue="Application.FilmClassifications" />
-                <item itemvalue="Application.FilmClassifications" />
-            </list>
-        </recent_temporary>
-    </component>
-    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-    <component name="SvnConfiguration">
-        <configuration />
-    </component>
-    <component name="TaskManager">
-        <task active="true" id="Default" summary="Default task">
-            <changelist id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="" />
-            <created>1683022968097</created>
-            <option name="number" value="Default" />
-            <option name="presentableId" value="Default" />
-            <updated>1683022968097</updated>
-        </task>
-        <task id="LOCAL-00001" summary="xml updated">
-            <created>1683738160827</created>
-            <option name="number" value="00001" />
-            <option name="presentableId" value="LOCAL-00001" />
-            <option name="project" value="LOCAL" />
-            <updated>1683738160827</updated>
-        </task>
-        <task id="LOCAL-00002" summary="new class">
-            <created>1683804450615</created>
-            <option name="number" value="00002" />
-            <option name="presentableId" value="LOCAL-00002" />
-            <option name="project" value="LOCAL" />
-            <updated>1683804450616</updated>
-        </task>
-        <task id="LOCAL-00003" summary="employees csv file added (new one)">
-            <created>1683810036640</created>
-            <option name="number" value="00003" />
-            <option name="presentableId" value="LOCAL-00003" />
-            <option name="project" value="LOCAL" />
-            <updated>1683810036640</updated>
-        </task>
-        <task id="LOCAL-00004" summary="Some changes made locally">
-            <created>1683888395557</created>
-            <option name="number" value="00004" />
-            <option name="presentableId" value="LOCAL-00004" />
-            <option name="project" value="LOCAL" />
-            <updated>1683888395557</updated>
-        </task>
-        <option name="localTasksCounter" value="5" />
-        <servers />
-    </component>
-    <component name="VcsManagerConfiguration">
-        <MESSAGE value="xml updated" />
-        <MESSAGE value="new class" />
-        <MESSAGE value="employees csv file added (new one)" />
-        <MESSAGE value="Some changes made locally" />
-        <option name="LAST_COMMIT_MESSAGE" value="Some changes made locally" />
-    </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="Logging added to App class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/mc/ProgramTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_3_45_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_3_45_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_09_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_10_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_10_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-May-23_3_32_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-May-23_3_32_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/employees.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/employees.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Eesa" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PEWxfp7TyvxvFEYYJ5CJgq7a9W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Xcite\Desktop\Eesa\SpartaGlobal\Week3\Project\MilkCake\src\test\java" />
+      <recent name="C:\Users\Xcite\Desktop\Eesa\SpartaGlobal\Week3\Project\MilkCake\src\main\java\com\sparta\mc" />
+      <recent name="C:\Users\Xcite\Desktop\Eesa\SpartaGlobal\Week3\Project\MilkCake\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sparta.mc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProgramTests.checkForLastNames">
+    <configuration name="FilmClassifications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparta.mc.App" />
+      <module name="PalindromeTask1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Classification_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntellijBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.em" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.em.Classification_Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmployeeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.em" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.em.ProgramTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntellijBasicss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.em.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.em" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.em.ProgramTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTests.checkForLastNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PalindromeTask1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.mc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.mc" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.mc.ProgramTests" />
+      <option name="METHOD_NAME" value="checkForLastNames" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTests.checkForLastNamesNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PalindromeTask1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparta.mc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sparta.mc" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.mc.ProgramTests" />
+      <option name="METHOD_NAME" value="checkForLastNamesNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProgramTests.checkForLastNames" />
+        <item itemvalue="JUnit.ProgramTests.checkForLastNamesNotFound" />
+        <item itemvalue="Application.FilmClassifications" />
+        <item itemvalue="JUnit.ProgramTests" />
+        <item itemvalue="JUnit.Classification_Tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="" />
+      <created>1683022968097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683022968097</updated>
+    </task>
+    <task id="LOCAL-00001" summary="xml updated">
+      <created>1683738160827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683738160827</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new class">
+      <created>1683804450615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683804450616</updated>
+    </task>
+    <task id="LOCAL-00003" summary="employees csv file added (new one)">
+      <created>1683810036640</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683810036640</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Some changes made locally">
+      <created>1683888395557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683888395557</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xml updated" />
+    <MESSAGE value="new class" />
+    <MESSAGE value="employees csv file added (new one)" />
+    <MESSAGE value="Some changes made locally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes made locally" />
+  </component>
 </project>
