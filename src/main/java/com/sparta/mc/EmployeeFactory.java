@@ -14,7 +14,7 @@ public class EmployeeFactory {
             throw new IllegalArgumentException("Argument 'numEmployees' must be between 1 and 1000");
         String employeeLine;
         List<String> result = new ArrayList<>();
-        BufferedReader f = new BufferedReader(new FileReader("src/main/resources/employeess.csv"));
+        BufferedReader f = new BufferedReader(new FileReader("src/main/resources/employees.csv"));
         // read all the records from the file and add them to the list
         while ((employeeLine = f.readLine()) != null)
             result.add(employeeLine);
