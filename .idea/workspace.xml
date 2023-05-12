@@ -4,8 +4,71 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="employees csv file added (new one)">
+    <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="new class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/AppLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/CustomFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/CustomFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/FileHandlerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.38" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logFile.log.9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_3_45_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_3_45_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_09_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_10_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10-May-23_5_10_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-May-23_3_32_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-May-23_3_32_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,15 +92,19 @@
         <entry key="$PROJECT_DIR$" value="Eesa" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2PEWxfp7TyvxvFEYYJ5CJgq7a9W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
@@ -49,7 +116,7 @@
       <recent name="C:\Users\Xcite\Desktop\Eesa\SpartaGlobal\Week3\Project\MilkCake\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FilmClassifications">
+  <component name="RunManager">
     <configuration name="FilmClassifications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sparta.mc.App" />
       <module name="EmployeeProject" />
@@ -169,6 +236,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="xml updated" />
     <MESSAGE value="new class" />
     <MESSAGE value="employees csv file added (new one)" />

@@ -12,13 +12,13 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         try {
-            String[] employees = EmployeeFactory.getEmployees(20);
+            String[] employees = EmployeeFactory.getEmployees(50);
             //logger    --  logHowManyEmployeeRecordsRetrieved
-
+AppLogger.writeLog("No:of records retrieved " + employees.length,"INFO");
             List<Employee> loe = createListofEmployees(employees);
             createEmployeeRecords(loe, employees);
             BinaryTree binaryTree = createBinaryTree(loe);
-            String[] lastNamesToSearch = {"Bumgarner", "Rojo", "Jason"};
+            String[] lastNamesToSearch = {"Bumgarner", "Jason","Forest"};
             searchInBinaryTree(binaryTree, lastNamesToSearch);
 
         } catch (IOException e) {
@@ -60,6 +60,7 @@ public class App {
 
             } else {
                 //logger    --  Add_Line_BADRECORD_HeaderRecord_Exist_in_csv
+                AppLogger.writeLog("Bad Record","WARNING");
             }
         }
     }
@@ -70,6 +71,7 @@ public class App {
         for (Employee employee : employeeList) {
             binaryTree.insert(employee);
             //logger    --  logLastNamesOfEmployeeRecordsAddedToBinaryTree
+            AppLogger.writeLog("Last Names added", "FINE");
         }
         return binaryTree;
     }
@@ -84,6 +86,7 @@ public class App {
             } else {
                 System.out.println("Employee not found.");
                 //logger    --  SearchRetrievedNoRecords
+                AppLogger.writeLog("Search Retrieved No Records", "INFO");
             }
         }
     }

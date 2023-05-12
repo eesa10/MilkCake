@@ -19,7 +19,7 @@ public class EmployeeFactory {
         while ((employeeLine = f.readLine()) != null)
             result.add(employeeLine);
         // randomise
-        Collections.shuffle(result);
+       // Collections.shuffle(result);
         // return the first numEmployees values as an array
         return result.subList(0,numEmployees).toArray(new String[0]);
     }
