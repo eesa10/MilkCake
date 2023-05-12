@@ -1,24 +1,31 @@
 package com.sparta.mc;
 
+import com.sparta.mc.logging.config.CustomFormatter;
+import com.sparta.mc.logging.config.FileHandlerConfig;
+
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class App {
+    public static final Logger logger = Logger.getLogger(App.class.getName());
+
     public static void main(String[] args) {
         try {
-            String[] employees = EmployeeFactory.getEmployees(50);
+            employeeLogger();
+            String[] employees = EmployeeFactory.getEmployees(20);
             //logger    --  logHowManyEmployeeRecordsRetrieved
-AppLogger.writeLog("No:of records retrieved " + employees.length,"INFO");
+            logger.log(Level.INFO, "Employee Records Retrieved: "+employees.length);
             List<Employee> loe = createListofEmployees(employees);
             createEmployeeRecords(loe, employees);
             BinaryTree binaryTree = createBinaryTree(loe);
-            String[] lastNamesToSearch = {"Bumgarner", "Jason","Forest"};
+            String[] lastNamesToSearch = {"Bumgarner", "Rojo", "Jason"};
             searchInBinaryTree(binaryTree, lastNamesToSearch);
 
         } catch (IOException e) {
@@ -26,6 +33,16 @@ AppLogger.writeLog("No:of records retrieved " + employees.length,"INFO");
         }
     }
 
+    public static void employeeLogger(){
+        ConsoleHandler consoleHandler = new ConsoleHandler();
+        consoleHandler.setLevel(Level.WARNING);
+        consoleHandler.setFormatter(new CustomFormatter());
+        logger.setUseParentHandlers(false);
+
+        //logger.setLevel(Level.ALL);
+        logger.addHandler(consoleHandler);
+        logger.addHandler(FileHandlerConfig.getFileHandler());
+    }
     private static List<Employee> createListofEmployees(String[] employees) {
         List<Employee> employeeList = new ArrayList<>();
         return employeeList;
@@ -65,7 +82,7 @@ AppLogger.writeLog("No:of records retrieved " + employees.length,"INFO");
 
             } else {
                 //logger    --  Add_Line_BADRECORD_HeaderRecord_Exist_in_csv
-                AppLogger.writeLog("Bad Record","WARNING");
+                logger.log(Level.WARNING, "Employee Records Contain Bad Record: "+emp[0]);
             }
         }
     }
@@ -76,7 +93,7 @@ AppLogger.writeLog("No:of records retrieved " + employees.length,"INFO");
         for (Employee employee : employeeList) {
             binaryTree.insert(employee);
             //logger    --  logLastNamesOfEmployeeRecordsAddedToBinaryTree
-            AppLogger.writeLog("Last Names added", "FINE");
+            logger.log(Level.INFO, "Added Employee Record in Binary Tree for: "+employee.getLastName());
         }
         return binaryTree;
     }
@@ -84,19 +101,20 @@ AppLogger.writeLog("No:of records retrieved " + employees.length,"INFO");
     private static void searchInBinaryTree(BinaryTree binaryTree, String[] lastNamesToSearch) {
 
         for (int i = 0; i < lastNamesToSearch.length; i++) {
-            try {
+            try{
                 Employee foundEmployee = binaryTree.search(lastNamesToSearch[i]);
 
                 if (foundEmployee != null) {
                     System.out.println("Employee found: " + foundEmployee.toString());
                 } else {
-                    System.out.println("Employee not found.");
+                    //System.out.println("Employee not found.");
                     //logger    --  SearchRetrievedNoRecords
-                    AppLogger.writeLog("Search Retrieved No Records", "INFO");
+                    logger.log(Level.WARNING, "Not Found in Binary Tree,  Employee: "+lastNamesToSearch[i]);
                 }
             }catch (IllegalArgumentException e) {
                 System.out.println("Invalid argument passed to search method: " + e.getMessage());//Illegal Argument exception
             }
+
         }
     }
 

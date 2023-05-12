@@ -1,528 +1,66 @@
-20230512 com.sparta.mc.AppLogger INFO This is an Info message
-20230512 com.sparta.mc.AppLogger WARNING This is a Warning message
-20230512 com.sparta.mc.AppLogger FINE This is a Fine message
-20230512 com.sparta.mc.AppLogger INFO This is an Info message
-20230512 com.sparta.mc.AppLogger WARNING This is a Warning message
-20230512 com.sparta.mc.AppLogger FINE This is a Fine message
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger FINE No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger FINE No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger INFO Bad Record
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Bad Record
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO Search Retrieved No Records
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO Search Retrieved No Records
-20230512 com.sparta.mc.AppLogger INFO Search Retrieved No Records
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO Search Retrieved No Records
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger INFO No:of records retrieved 50
-20230512 com.sparta.mc.AppLogger WARNING Bad Record
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
-20230512 com.sparta.mc.AppLogger FINE Last Names added
+20230512 com.sparta.mc.App INFO Employee Records Retrieved: 20
+20230512 com.sparta.mc.App WARNING Employee Records Contain Bad Record: Emp ID
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Bumgarner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Rojo
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Krawczyk
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Jason
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Forest
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Wan
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Farrow
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Fernandez
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Jackman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Paddock
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Manning
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Hafner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Pearman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Forman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Osorio
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Simard
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Stoner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Mattison
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Maeda
+20230512 com.sparta.mc.App WARNING Not Found in Binary Tree,  Employee: Bumgarner1
+20230512 com.sparta.mc.App WARNING Not Found in Binary Tree,  Employee: Rojo1
+20230512 com.sparta.mc.App WARNING Not Found in Binary Tree,  Employee: Jason1
+20230512 com.sparta.mc.App INFO Employee Records Retrieved: 20
+20230512 com.sparta.mc.App WARNING Employee Records Contain Bad Record: Emp ID
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Bumgarner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Rojo
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Krawczyk
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Jason
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Forest
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Wan
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Farrow
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Fernandez
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Jackman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Paddock
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Manning
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Hafner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Pearman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Forman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Osorio
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Simard
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Stoner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Mattison
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Maeda
+20230512 com.sparta.mc.App INFO Employee Records Retrieved: 20
+20230512 com.sparta.mc.App WARNING Employee Records Contain Bad Record: Emp ID
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Bumgarner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Rojo
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Krawczyk
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Jason
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Forest
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Wan
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Farrow
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Fernandez
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Jackman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Paddock
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Manning
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Hafner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Pearman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Forman
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Osorio
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Simard
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Stoner
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Mattison
+20230512 com.sparta.mc.App INFO Added Employee Record in Binary Tree for: Maeda
