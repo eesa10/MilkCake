@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="new class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/mc/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logFile.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logFile.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,16 +195,5 @@
     <MESSAGE value="new class" />
     <MESSAGE value="employees csv file added (new one)" />
     <option name="LAST_COMMIT_MESSAGE" value="employees csv file added (new one)" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
