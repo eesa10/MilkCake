@@ -1,0 +1,89 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"ALL\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"246299d0-27e8-493f-90e3-25319123c787\" name=\"Default Changelist\" comment=\"employees csv file added (new one)\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/sparta/mc/App.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/sparta/mc/App.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeInsightWorkspaceSettings\">\r\n    <option name=\"optimizeImportsOnTheFly\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"dev\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2PEWxfp7TyvxvFEYYJ5CJgq7a9W\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"Eesa\",\r\n    \"last_opened_file_path\": \"C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Xcite\\Desktop\\Eesa\\SpartaGlobal\\Week3\\Project\\MilkCake\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.FilmClassifications\">\r\n    <configuration name=\"FilmClassifications\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.mc.App\" />\r\n      <module name=\"EmployeeProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Program\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.em.Program\" />\r\n      <module name=\"IntellijBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Classification_Tests\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"IntellijBasics\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.sparta.em\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.em.Classification_Tests\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProgramTests\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"EmployeeProject\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.sparta.em\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.em.ProgramTests\" />\r\n      <option name=\"METHOD_NAME\" value=\"\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ProgramTests\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"IntellijBasicss\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.sparta.em.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.sparta.em\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.sparta.em.ProgramTests\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.FilmClassifications\" />\r\n        <item itemvalue=\"JUnit.ProgramTests\" />\r\n        <item itemvalue=\"JUnit.Classification_Tests\" />\r\n        <item itemvalue=\"Application.Program\" />\r\n        <item itemvalue=\"Application.FilmClassifications\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"246299d0-27e8-493f-90e3-25319123c787\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1683022968097</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1683022968097</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"xml updated\">\r\n      <created>1683738160827</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683738160827</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"new class\">\r\n      <created>1683804450615</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683804450616</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"employees csv file added (new one)\">\r\n      <created>1683810036640</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683810036640</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"xml updated\" />\r\n    <MESSAGE value=\"new class\" />\r\n    <MESSAGE value=\"employees csv file added (new one)\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"employees csv file added (new one)\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 978dc16105e6a5ef3983be240ef812ef46788acf)
++++ b/.idea/workspace.xml	(date 1683890963810)
+@@ -6,10 +6,10 @@
+   <component name="ChangeListManager">
+     <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="employees csv file added (new one)">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/BinaryTree.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/Node.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/EmployeeFactory.class" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -39,14 +39,14 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "Eesa",
+-    "last_opened_file_path": "C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;Eesa&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\Xcite\Desktop\Eesa\SpartaGlobal\Week3\Project\MilkCake\src\main\resources" />
+Index: src/main/java/com/sparta/mc/Node.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.sparta.mc;\r\nclass Node {\r\n    private Employee employee;\r\n    private Node left;\r\n    private Node right;\r\n\r\n\tNode(Employee employee){\r\n\t\tthis.employee=employee;\r\n\t}\r\n\r\n    public Employee getEmployee() {\r\n        return employee;\r\n    }\r\n\r\n    public void setEmployee(Employee employee) {\r\n        this.employee = employee;\r\n    }\r\n\r\n    public Node getLeft() {\r\n        return left;\r\n    }\r\n\r\n    public void setLeft(Node left) {\r\n        this.left = left;\r\n    }\r\n\r\n    public Node getRight() {\r\n        return right;\r\n    }\r\n\r\n    public void setRight(Node right) {\r\n        this.right = right;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/sparta/mc/Node.java b/src/main/java/com/sparta/mc/Node.java
+--- a/src/main/java/com/sparta/mc/Node.java	(revision 978dc16105e6a5ef3983be240ef812ef46788acf)
++++ b/src/main/java/com/sparta/mc/Node.java	(date 1683891298432)
+@@ -4,9 +4,9 @@
+     private Node left;
+     private Node right;
+ 
+-	Node(Employee employee){
+-		this.employee=employee;
+-	}
++    Node(Employee employee){
++        this.employee=employee;
++    }
+ 
+     public Employee getEmployee() {
+         return employee;
+Index: src/main/java/com/sparta/mc/BinaryTree.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.sparta.mc;\r\nclass BinaryTree {\r\n    private Node root;\r\n    public void insert(Employee employee) {\r\n        root = insertNode(root, employee);\r\n    }\r\n\r\n    private Node insertNode(Node current, Employee employee) {\r\n        if (current == null) {\r\n            return new Node(employee);\r\n        }\r\n\r\n        String currentLastName = current.getEmployee().getLastName();\r\n        String newLastName = employee.getLastName();\r\n\r\n        if (newLastName.compareTo(currentLastName) < 0) {\r\n            current.setLeft(insertNode(current.getLeft(), employee));\r\n        } else if (newLastName.compareTo(currentLastName) > 0) {\r\n            current.setRight(insertNode(current.getRight(), employee));\r\n        } else {\r\n            // Handle duplicates (if required)\r\n            // For example, you could have a list of employees with the same last name\r\n            // stored in a separate data structure within the Node class\r\n        }\r\n        return current;\r\n    }\r\n\r\n    public Employee search(String lastName) {\r\n        return searchNode(root, lastName);\r\n    }\r\n\r\n    private Employee searchNode(Node current, String lastName) {\r\n        if (current == null || current.getEmployee().getLastName().equals(lastName)) {\r\n            return (current != null) ? current.getEmployee() : null;\r\n        }\r\n\r\n        if (lastName.compareTo(current.getEmployee().getLastName()) < 0) {\r\n            return searchNode(current.getLeft(), lastName);\r\n        } else {\r\n            return searchNode(current.getRight(), lastName);\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/sparta/mc/BinaryTree.java b/src/main/java/com/sparta/mc/BinaryTree.java
+--- a/src/main/java/com/sparta/mc/BinaryTree.java	(revision 978dc16105e6a5ef3983be240ef812ef46788acf)
++++ b/src/main/java/com/sparta/mc/BinaryTree.java	(date 1683891298401)
+@@ -1,5 +1,8 @@
+ package com.sparta.mc;
+ class BinaryTree {
++
++
++
+     private Node root;
+     public void insert(Employee employee) {
+         root = insertNode(root, employee);
