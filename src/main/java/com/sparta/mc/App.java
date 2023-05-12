@@ -80,9 +80,9 @@ public class App {
             Employee foundEmployee = binaryTree.search(lastNamesToSearch[i]);
 
             if (foundEmployee != null) {
-                System.out.println("Employee found: " + foundEmployee.toString());
+                System.out.println(i+1 + ": Employee found: " + foundEmployee.toString());
             } else {
-                System.out.println("Employee not found.");
+                System.out.println(i+1 + ": No records of someone with the last name '" + lastNamesToSearch[i] +  "' were found.");
                 //logger    --  SearchRetrievedNoRecords
             }
         }

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="employees csv file added (new one)">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_12_20_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12-May-23_12_20_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/employees_csv_file_added__new_one_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/employees_csv_file_added__new_one_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/mc/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Eesa" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
   </component>
@@ -39,14 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Eesa",
-    "last_opened_file_path": "C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Eesa&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xcite/Desktop/Eesa/SpartaGlobal/Week2/Coding/IntellijBasicss&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Xcite\Desktop\Eesa\SpartaGlobal\Week3\Project\MilkCake\src\main\resources" />
@@ -175,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683888395557</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Node Class nested within BinaryTree">
+      <created>1683898501284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683898501285</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Node Class nested within BinaryTree">
+      <created>1683898539445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683898539445</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,6 +197,7 @@
     <MESSAGE value="new class" />
     <MESSAGE value="employees csv file added (new one)" />
     <MESSAGE value="Some changes made locally" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some changes made locally" />
+    <MESSAGE value="Node Class nested within BinaryTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node Class nested within BinaryTree" />
   </component>
 </project>
