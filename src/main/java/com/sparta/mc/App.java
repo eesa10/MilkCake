@@ -19,7 +19,7 @@ public class App {
     public static void main(String[] args) {
         try {
             employeeLogger();
-            String[] employees = EmployeeFactory.getEmployees(20);
+            String[] employees = EmployeeFactory.getEmployees(1000);
             //logger    --  logHowManyEmployeeRecordsRetrieved
             logger.log(Level.INFO, "Employee Records Retrieved: "+employees.length);
             List<Employee> loe = createListofEmployees(employees);

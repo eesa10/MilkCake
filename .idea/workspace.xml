@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="new class" />
+    <list default="true" id="246299d0-27e8-493f-90e3-25319123c787" name="Default Changelist" comment="new class">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/mc/EmployeeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logFile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logFile.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,11 +47,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "dev",
-    "last_opened_file_path": "C:/Users/shaha/IdeaProjects/MilkCake/src/main/java/com/sparta/mc"
+    "last_opened_file_path": "C:/Users/shaha/IdeaProjects/MilkCake/src/test"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shaha\IdeaProjects\MilkCake\src\test" />
       <recent name="C:\Users\shaha\IdeaProjects\MilkCake\src\main\java\com\sparta\mc" />
       <recent name="C:\Users\shaha\IdeaProjects\MilkCake\src\main\java\com\sparta\mc\logging\config" />
     </key>
@@ -191,5 +196,16 @@
     <MESSAGE value="new class" />
     <MESSAGE value="employees csv file added (new one)" />
     <option name="LAST_COMMIT_MESSAGE" value="employees csv file added (new one)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparta/mc/App.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
