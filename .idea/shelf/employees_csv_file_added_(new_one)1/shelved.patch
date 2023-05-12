@@ -1,0 +1,84 @@
+Index: src/main/java/com/sparta/mc/logging/config/CustomFilter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/sparta/mc/logging/config/CustomFilter.java b/src/main/java/com/sparta/mc/logging/config/CustomFilter.java
+new file mode 100644
+--- /dev/null	(date 1683904305264)
++++ b/src/main/java/com/sparta/mc/logging/config/CustomFilter.java	(date 1683904305264)
+@@ -0,0 +1,15 @@
++package com.sparta.mc.logging.config;
++
++import java.util.logging.Filter;
++import java.util.logging.LogRecord;
++
++public class CustomFilter implements Filter {
++    @Override
++    public boolean isLoggable(LogRecord record) {
++        if (record.getMessage().contains("Security")) {
++            return true;
++        } else  {
++            return false;
++        }
++    }
++}
+\ No newline at end of file
+Index: src/main/java/com/sparta/mc/logging/config/CustomFormatter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/sparta/mc/logging/config/CustomFormatter.java b/src/main/java/com/sparta/mc/logging/config/CustomFormatter.java
+new file mode 100644
+--- /dev/null	(date 1683904305265)
++++ b/src/main/java/com/sparta/mc/logging/config/CustomFormatter.java	(date 1683904305265)
+@@ -0,0 +1,17 @@
++package com.sparta.mc.logging.config;
++
++import java.time.LocalDate;
++import java.time.format.DateTimeFormatter;
++import java.util.logging.Formatter;
++import java.util.logging.LogRecord;
++
++public class CustomFormatter extends Formatter {
++    @Override
++    public String format(LogRecord record) {
++        return LocalDate.now().format(DateTimeFormatter.BASIC_ISO_DATE)
++                + " " + record.getSourceClassName()
++                + " " + record.getLevel()
++                + " " + record.getMessage()
++                + "\n";
++    }
++}
+\ No newline at end of file
+Index: src/main/java/com/sparta/mc/logging/config/FileHandlerConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/sparta/mc/logging/config/FileHandlerConfig.java b/src/main/java/com/sparta/mc/logging/config/FileHandlerConfig.java
+new file mode 100644
+--- /dev/null	(date 1683904305268)
++++ b/src/main/java/com/sparta/mc/logging/config/FileHandlerConfig.java	(date 1683904305268)
+@@ -0,0 +1,19 @@
++package com.sparta.mc.logging.config;
++
++import java.io.IOException;
++import java.util.logging.FileHandler;
++import java.util.logging.Level;
++
++public class FileHandlerConfig {
++    public static FileHandler getFileHandler() {
++        FileHandler fileHandler = null;
++        try {
++            fileHandler = new FileHandler("src/main/resources/logFile.log", true);
++            fileHandler.setLevel(Level.ALL);
++            fileHandler.setFormatter(new CustomFormatter());
++        } catch (IllegalArgumentException | SecurityException | IOException e) {
++            e.printStackTrace();
++        }
++        return fileHandler;
++    }
++}
+\ No newline at end of file
