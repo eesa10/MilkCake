@@ -1,24 +1,31 @@
 package com.sparta.mc;
 
+import com.sparta.mc.logging.config.CustomFormatter;
+import com.sparta.mc.logging.config.FileHandlerConfig;
+
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class App {
+    public static final Logger logger = Logger.getLogger(App.class.getName());
+
     public static void main(String[] args) {
         try {
+            employeeLogger();
             String[] employees = EmployeeFactory.getEmployees(1000);
             //logger    --  logHowManyEmployeeRecordsRetrieved
-
+            logger.log(Level.INFO, "Employee Records Retrieved: "+employees.length);
             List<Employee> loe = createListofEmployees(employees);
             createEmployeeRecords(loe, employees);
             BinaryTree binaryTree = createBinaryTree(loe);
-            String[] lastNamesToSearch = {"Bumgarner", "Rojo", "Jason", "Winter", "Mattison", "Breton"};
+            String[] lastNamesToSearch = {"Bumgarner", "Rojo", "Jason"};
             searchInBinaryTree(binaryTree, lastNamesToSearch);
 
         } catch (IOException e) {
@@ -26,6 +33,16 @@ public class App {
         }
     }
 
+    public static void employeeLogger(){
+        ConsoleHandler consoleHandler = new ConsoleHandler();
+        consoleHandler.setLevel(Level.WARNING);
+        consoleHandler.setFormatter(new CustomFormatter());
+        logger.setUseParentHandlers(false);
+
+        //logger.setLevel(Level.ALL);
+        logger.addHandler(consoleHandler);
+        logger.addHandler(FileHandlerConfig.getFileHandler());
+    }
     private static List<Employee> createListofEmployees(String[] employees) {
         List<Employee> employeeList = new ArrayList<>();
         return employeeList;
@@ -44,22 +61,28 @@ public class App {
             String EMail= "";
 
             if (!emp[0].equals("Emp ID")) {
-                EmpID = Integer.parseInt(emp[0]);
-                NamePrefix = emp[1];
-                FirstName = emp[2];
-                MiddleInitial = emp[3].charAt(0);
-                LastName = emp[4];
-                Gender = emp[5].charAt(0);
-                EMail = emp[6];
-                Integer.parseInt(emp[9]);
+                try {
+                    EmpID = Integer.parseInt(emp[0]);
+                    NamePrefix = emp[1];
+                    FirstName = emp[2];
+                    MiddleInitial = emp[3].charAt(0);
+                    LastName = emp[4];
+                    Gender = emp[5].charAt(0);
+                    EMail = emp[6];
+                    Integer.parseInt(emp[9]);
 
-                String DateofBirth = applyDateFormat(emp[7]);
-                String DateofJoining = applyDateFormat(emp[8]);
-                Employee e = new Employee(EmpID, NamePrefix, FirstName, MiddleInitial, LastName, Gender, EMail, DateofBirth, DateofJoining, Salary);
-                employeeList.add(e);
+                    String DateofBirth = applyDateFormat(emp[7]);
+                    String DateofJoining = applyDateFormat(emp[8]);
+                    Employee e = new Employee(EmpID, NamePrefix, FirstName, MiddleInitial, LastName, Gender, EMail, DateofBirth, DateofJoining, Salary);
+                    employeeList.add(e);
+                }catch (NumberFormatException e) {
+                    System.err.println("Invalid input format: " + e.getMessage()); //try-catch exception for invalid input format
+
+                }
 
             } else {
                 //logger    --  Add_Line_BADRECORD_HeaderRecord_Exist_in_csv
+                logger.log(Level.WARNING, "Employee Records Contain Bad Record: "+emp[0]);
             }
         }
     }
@@ -70,6 +93,7 @@ public class App {
         for (Employee employee : employeeList) {
             binaryTree.insert(employee);
             //logger    --  logLastNamesOfEmployeeRecordsAddedToBinaryTree
+            logger.log(Level.INFO, "Added Employee Record in Binary Tree for: "+employee.getLastName());
         }
         return binaryTree;
     }
@@ -77,14 +101,20 @@ public class App {
     private static void searchInBinaryTree(BinaryTree binaryTree, String[] lastNamesToSearch) {
 
         for (int i = 0; i < lastNamesToSearch.length; i++) {
-            Employee foundEmployee = binaryTree.search(lastNamesToSearch[i]);
+            try{
+                Employee foundEmployee = binaryTree.search(lastNamesToSearch[i]);
 
-            if (foundEmployee != null) {
-                System.out.println("Employee found: " + foundEmployee.toString());
-            } else {
-                System.out.println("Employee not found.");
-                //logger    --  SearchRetrievedNoRecords
+                if (foundEmployee != null) {
+                    System.out.println("Employee found: " + foundEmployee.toString());
+                } else {
+                    //System.out.println("Employee not found.");
+                    //logger    --  SearchRetrievedNoRecords
+                    logger.log(Level.WARNING, "Not Found in Binary Tree,  Employee: "+lastNamesToSearch[i]);
+                }
+            }catch (IllegalArgumentException e) {
+                System.out.println("Invalid argument passed to search method: " + e.getMessage());//Illegal Argument exception
             }
+
         }
     }
 
